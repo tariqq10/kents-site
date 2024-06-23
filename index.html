@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kent's site</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <p class="first-p">Welcome to my own Little World displaying some of my best shots</p>
+    <h1 id="ab">About:</h1>
+    <p id="second-p">Photography acts as my way of preserving precious moments whilst also capturing the most beautiful aspects of this world. <br> Although never taking any professional classes or owned any high end equipment i find joy in using what i have around me to perfect my craft </p>
+    <header>
+        <h1 id="mp">My Photography Portfolio</h1>
+    </header>
+    <div class="gallery">
+        
+        <img src="./images/apex.jpg" alt="Bottled Water">
+        <img src="./images/dove.jpeg" alt="DOVES IN THE WIND">
+        <img src="./images/home.jpg" alt="SunSide">
+        <img src="./images/limu.jpg" alt="Graduation site">
+        <img src="./images/phase1.jpg" alt="Masinga Lab">
+        <img src="./images/phase2.jpg" alt="STMB">
+        <img src="./images/sunday.jpg" alt="Peeking Out The Window">
+
+    </div>
+
+    <div class="container">
+        <fieldset>
+        <legend> Comments</legend>
+    <form id="contactForm" onsubmit="return validateForm()">
+        <br><label for="name">Name:</label></br>
+        <input type="text" id="name" name="name" ><br>
+
+        <label for="Phone">Phone:</label><br>
+        <input type="tel" id="Phone" name="Phone"><br>
+
+        
+
+        <label for="review">Review:</label><br>
+        <textarea id="review" name="review" rows="10" cols="30"></textarea><br>
+
+        <button type="submit">Submit</button><br>
+    </form>
+</fieldset>
+    </div>
+
     <script src="script.js"></script>
-    <h1>Hello World!</h1>
+
     
 </body>
 </html>
